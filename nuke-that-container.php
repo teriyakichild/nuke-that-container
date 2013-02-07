@@ -5,7 +5,7 @@ ini_set('display_errors','0');
 function usage(){
   print "CloudFiles Container Deletion Tool\n";
   print "Written By: Tony Rogers\n";
-  print "Usage: php run.php -u USERNAME -k APIKEY -r US|UK\n";
+  print "Usage: php nuke-that-container.php -u USERNAME -k APIKEY -r US|UK\n";
 }
 
 $options = getopt("u:k:r:");
