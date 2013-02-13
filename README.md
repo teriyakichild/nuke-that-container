@@ -1,7 +1,6 @@
 rs-cf-container-deleter
 =======================
-Written By: Tony Rogers (tony@reactblue.com)
-Provide with no 
+Written By: Tony Rogers (tony@reactblue.com) 
 
 Deletes all the files within a container and the container itself.
 
