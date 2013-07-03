@@ -73,7 +73,7 @@ if (count($options) > 0) {
 
   #Get Containers in that Region:
   $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, $endpoints[$endpoint].'?format=json');
+  curl_setopt($ch, CURLOPT_URL, $endpoints[$endpoint].'?format=json&limit=10000');
   curl_setopt($ch, CURLOPT_HTTPHEADER, array('X-Auth-Token: '.$token));
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   $ret = curl_exec($ch);
